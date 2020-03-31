@@ -58,7 +58,7 @@ int main(){
 
         for(float k = 0; k < 2; k += 0.05){
           Aout = 0.5 + 0.5 * sin(k * 2 * 3.14159 * freq);
-          wait(1./sample);
+          wait(0.001);
         }
     }
 }
